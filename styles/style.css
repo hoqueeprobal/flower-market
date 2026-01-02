@@ -386,3 +386,33 @@ form {
     text-align: center;
     align-items: center;
 }
+
+/* Footer Section */
+.footer-area {
+    padding: 50px 0;
+}
+
+.footer-row {
+    display: flex;
+    gap: 110px;
+}
+
+.site-identity {
+    max-width: 360px;
+}
+
+.quick-link {
+    list-style: none;
+}
+
+.social-link img {
+    margin-right: 24px;
+}
+
+.quick-link li {
+    margin-top: 32px;
+}
+
+.site-identity img {
+    margin-bottom: 16px;
+}
