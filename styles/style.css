@@ -384,6 +384,19 @@ nav ul .cart a {
     margin-left: -20px;
 }
 
+/* Flower & Plants Lover Image Hover Effect */
+.plants-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.plants-img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); 
+    filter: brightness(1.05); 
+}
+
+
 /* Latest Deals Section */
 .deals {
     display: grid;
