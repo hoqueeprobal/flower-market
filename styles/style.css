@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background: #F5F8FF;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+}
+
+/* Minimal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    color: #8987A1;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4.063rem;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3.125rem;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.black {
+    color: #1f1f1f;
+}
+
+.gold {
+    color: #E95A08;
+}
+
+.btn a {
+    color: #FFFFFF;
+}
+
+.btn {
+    background-color: #E95A08;
+    padding: 20px 80px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Navbar */
+.navbar-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+nav ul li {
+    display: list-item;
+}
+
+nav ul .home a {
+    color: #252432;
+    font-weight: bold;
+}
+
+nav ul .cart {
+    display: flex;
+    gap: 10px;
+    color: #252432;
+    font-weight: normal;
+}
+
+nav ul .cart a {
+    color: #252432;
+}
+
+.navbar-area li.home a,
+.navbar-area li.cart a {
+    color: inherit;
+}
