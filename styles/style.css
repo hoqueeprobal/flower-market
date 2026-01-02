@@ -178,3 +178,48 @@ nav ul .cart a {
 .banner-content h1 {
     margin-bottom: 13px;
 }
+
+/* Our Plants Section */
+.text-center {
+    text-align: center;
+}
+
+.heading-part h2 {
+    font-family: 'Noto Serif';
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+.heading-part {
+    padding: 0 126px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product h4 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.product b {
+    font-size: 22px;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.product {
+    box-shadow: 1px 18px 15px 13px #E3E3E3;
+}
+
+.product .btn {
+    margin-top: 30px;
+}
