@@ -121,7 +121,7 @@ section {
     text-align: center;
 }
 
-/* Navbar */
+/* Navbar Section */
 .navbar-area {
     display: flex;
     justify-content: space-between;
@@ -158,4 +158,23 @@ nav ul .cart a {
 .navbar-area li.home a,
 .navbar-area li.cart a {
     color: inherit;
+}
+
+/* Banner Section */
+
+.banner-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.banner-content h1 {
+    margin-bottom: 13px;
 }
