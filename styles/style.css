@@ -224,6 +224,114 @@ nav ul .cart a {
     margin-top: 30px;
 }
 
+/* Product Card Hover Effect with Different Colors */
+.product {
+    box-shadow: 1px 18px 15px 13px #E3E3E3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    background-color: white; /* default */
+}
+
+/* Product Card Hover Effect with Different Colors */
+.product {
+    box-shadow: 1px 18px 15px 13px #E3E3E3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    background-color: white; /* default */
+}
+
+/* Ensure button inside product has transition */
+.product .btn {
+    transition: color 0.3s ease, background 0.3s ease;
+    color: #FFFFFF; /* default button text color */
+}
+
+/* Product Card Hover Effect with Background and Text Color */
+.product {
+    box-shadow: 1px 18px 15px 13px #E3E3E3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    background-color: white; /* default */
+    color: #252432; /* default text color */
+}
+
+.product h4,
+.product b,
+.product .btn {
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect on Each Card */
+.product {
+    box-shadow: 1px 18px 15px 13px #E3E3E3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+    color: #252432;
+}
+
+.product h4,
+.product b,
+.product .btn {
+    transition: color 0.3s ease;
+}
+
+.products .product:nth-child(1):hover {
+    background-color: #d1f3e0;
+    color: #006a50;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.products .product:nth-child(2):hover {
+    background-color: #cce7ff;
+    color: #0066cc;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.products .product:nth-child(3):hover {
+    background-color: #fff3cc;
+    color: #b38f00;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.products .product:nth-child(4):hover {
+    background-color: #fddede;
+    color: #d32f2f;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.products .product:nth-child(5):hover {
+    background-color: #e6d4ff;
+    color: #7b1fa2;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.products .product:nth-child(6):hover {
+    background-color: #ffe0b2;
+    color: #f57c00;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.products .product:nth-child(7):hover {
+    background-color: #b2f0ea;
+    color: #00796b;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.products .product:nth-child(8):hover {
+    background-color: #ffd6d6;
+    color: #c62828;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
 /* Flower & Plants Lover Section */
 .plant {
     display: grid;
