@@ -160,6 +160,36 @@ nav ul .cart a {
     color: inherit;
 }
 
+/* Navbar Big Type Hover Animation */
+nav ul li a {
+    position: relative;
+    font-weight: bold;
+    font-size: 1rem; 
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: #E95A08; 
+    transform: scale(1.2); 
+}
+
+/* Animated underline */
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #E95A08;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
 /* Banner Section */
 
 .banner-area {
