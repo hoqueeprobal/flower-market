@@ -608,3 +608,139 @@ form {
 .site-identity img {
     margin-bottom: 16px;
 }
+
+/* Responsive Part */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    section {
+        margin-top: 41px;
+        padding-top: 0;
+    }
+
+    .navbar-area {
+        margin: 13px 16px;
+    }
+
+    .navbar-area .logo {
+        width: 63px;
+        height: 38px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    nav ul .cart {
+        display: list-item;
+        display: flex;
+        gap: 10px;
+    }
+
+    nav ul .cart a {
+        font-size: 16px;
+    }
+
+    .banner-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-content {
+        grid-row: 2;
+        margin-top: 28px;
+    }
+
+    .heading-part {
+        padding: 0 28.5px;
+    }
+
+    .heading-part h2 {
+        font-size: 24px;
+    }
+
+    .btn {
+        padding: 20px 30px;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 50px 14px;
+    }
+
+    .product {
+        box-shadow: 1px 18px 15px 13px #E3E3E3;
+    }
+
+    .plant,
+    .deals {
+        margin: 0px 17px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .plants {
+        padding-top: 0;
+    }
+
+    .plant-des h2 {
+        font-size: 24px;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .deals {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .deal-left {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .deal-left-1,
+    .deal-right {
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+
+    .deal-text h3 {
+        font-size: 20px;
+    }
+
+    .deal-text a {
+        font-size: 16px;
+    }
+
+    .subscribe {
+        height: 275px;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+    }
+
+    input[type="email"] {
+        width: 218px;
+    }
+
+    .subscribe .btn {
+        padding: 15px 18px;
+    }
+
+    .footer-row {
+        gap: 20px;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+}
